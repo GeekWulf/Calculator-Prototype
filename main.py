@@ -95,7 +95,7 @@ def Button_check(button_press):
             b = int(secstore)
             ans = a + b
             print('{} + {} = {}'.format(a, b, ans))
-            lb3.configure(text = '100')
+            lb3.configure(text = ans)
         elif oprord == 12: #minus
             a = int(firstore)
             b = int(secstore)
